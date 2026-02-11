@@ -6,13 +6,13 @@ import { useState, useEffect } from "react";
 
 // 18 images
 const images = [
-  "src/app/game-photos/1.jpeg",
-  "app/game-photos/2.jpeg",
-  "../game-photos/3.jpeg",
-  "../src/app/game-photos/4.jpeg",
-  "../../app/game-photos/5.jpeg",
-  "../../src/app/game-photos/6.jpeg",
-  "/game-photos/7.jpeg",
+  "Efra-14-Feb-Dani-3/src/app/game-photos/1.jpeg",
+  "Efra-14-Feb-Dani-3/app/game-photos/2.jpeg",
+  "../Efra-14-Feb-Dani-3/game-photos/3.jpeg",
+  "../Efra-14-Feb-Dani-3/src/app/game-photos/4.jpeg",
+  "../../Efra-14-Feb-Dani-3/app/game-photos/5.jpeg",
+  "../../Efra-14-Feb-Dani-3/src/app/game-photos/6.jpeg",
+  "Efra-14-Feb-Dani-3/game-photos/7.jpeg",
   "/game-photos/8.jpeg",
   "/game-photos/9.jpeg",
   "/game-photos/10.jpeg",
