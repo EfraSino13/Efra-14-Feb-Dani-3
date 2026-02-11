@@ -7,6 +7,11 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Grant write permission for this specific job
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4    
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
