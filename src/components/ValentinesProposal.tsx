@@ -134,8 +134,8 @@ export default function ValentinesProposal() {
             >
               Te gustaria ser mi San Valentin?
             </h2>
-            <Image
-              src="/chimuelo.png"
+            <Image            
+              src="../Efra-14-Feb-Dani-3/chimuelo.png"
               alt="chiumuelo"
               width={200}
               height={200}
@@ -178,7 +178,7 @@ export default function ValentinesProposal() {
             Muy feliz de que aceptaras Dani Bonita! 💕
             <p className="text-sm mt-4">Te Amo!!! 💌 Nos vemos el sabado</p>
             <Image
-              src="/hamster_jumping.gif"
+              src="../Efra-14-Feb-Dani-3/hamster_jumping.gif"
               alt="Hamster Feliz"
               width={200}
               height={200}
