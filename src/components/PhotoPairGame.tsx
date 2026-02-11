@@ -6,12 +6,12 @@ import { useState, useEffect } from "react";
 
 // 18 images
 const images = [
-  "/game-photos/1.jpeg",
-  "/game-photos/2.jpeg",
-  "/game-photos/3.jpeg",
-  "/game-photos/4.jpeg",
-  "/game-photos/5.jpeg",
-  "/game-photos/6.jpeg",
+  "src/app/game-photos/1.jpeg",
+  "app/game-photos/2.jpeg",
+  "../game-photos/3.jpeg",
+  "../src/app/game-photos/4.jpeg",
+  "../../app/game-photos/5.jpeg",
+  "../../src/app/game-photos/6.jpeg",
   "/game-photos/7.jpeg",
   "/game-photos/8.jpeg",
   "/game-photos/9.jpeg",
