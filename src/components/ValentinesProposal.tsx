@@ -91,7 +91,7 @@ export default function ValentinesProposal() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            Feliciades! lo has echo muy bien.
+            Feliciades!! lo has echo muy bien.
           </motion.h2>
         )}
         {step === 1 && (
@@ -103,7 +103,7 @@ export default function ValentinesProposal() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            Te tengo una sorpresa!
+            Pero tengo una pregunta!!
           </motion.h2>
         )}
         {step === 2 && (
@@ -132,7 +132,7 @@ export default function ValentinesProposal() {
             <h2
               className={`text-5xl font-semibold mb-8 ${playfairDisplay.className}`}
             >
-              Te gustaria ser mi San Valentin?
+              Te gustaría ser mi San Valentin?
             </h2>
             <Image            
               src="../Efra-14-Feb-Dani-3/chimuelo.png"

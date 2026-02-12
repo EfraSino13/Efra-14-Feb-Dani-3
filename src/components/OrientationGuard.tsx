@@ -46,11 +46,11 @@ export default function OrientationGuard({
           </svg>
         </motion.div>
         <h2 className="text-3xl font-bold text-white mb-4">
-          Gira tu Iphone corazon de melon!!
+          Gira tu Iphone corazón de Melón!!
         </h2>
         <p className="text-cyan-400 text-lg max-w-xs">
-          Para completar esta parte tu iphone debe estar{" "}
-          <b>modo orizondal bonita</b>.
+          Para completar iniciar tu iphone debe estar{" "}
+          <b>modo orizondal bonita!!</b>.
         </p>
       </div>
     );
