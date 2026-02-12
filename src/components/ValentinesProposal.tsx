@@ -116,7 +116,7 @@ export default function ValentinesProposal() {
             className="flex flex-col items-center"
           >
             {/* Image Grid Background */}
-            <div className="absolute inset-0 grid grid-cols-6 opacity-05">
+            <div className="absolute inset-0 grid grid-cols-6 opacity-10">
               {images.slice(0, 36).map((src, index) => (
                 <div key={index} className="relative h-full">
                   <Image
