@@ -48,8 +48,8 @@ export default function OrientationGuard({
         <h2 className="text-3xl font-bold text-white mb-4">
           Gira tu Iphone corazón de Melón!!
         </h2>
-        <p className="text-cyan-400 text-lg max-w-xs">
-          Para completar iniciar tu iphone debe estar{" "}
+        <p className="text-400 colorDani text-lg max-w-xs">
+          Tu iphone debe estar{" "}
           <b>modo orizondal bonita!!</b>.
         </p>
       </div>

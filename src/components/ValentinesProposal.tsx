@@ -85,7 +85,7 @@ export default function ValentinesProposal() {
         {step === 0 && (
           <motion.h2
             key="step-0"
-            className={`text-4xl font-semibold mb-4 ${playfairDisplay.className}`}
+            className={`text-4xl colorDani font-semibold mb-4 ${playfairDisplay.className}`}
             transition={{ duration: 1 }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -97,13 +97,13 @@ export default function ValentinesProposal() {
         {step === 1 && (
           <motion.h2
             key="step-1"
-            className={`text-4xl font-semibold mb-4 ${playfairDisplay.className}`}
+            className={`text-4xl colorDani font-semibold mb-4 ${playfairDisplay.className}`}
             transition={{ duration: 3 }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            Pero tengo una pregunta!!
+            Ahora tengo una pregunta!!
           </motion.h2>
         )}
         {step === 2 && (
@@ -116,7 +116,7 @@ export default function ValentinesProposal() {
             className="flex flex-col items-center"
           >
             {/* Image Grid Background */}
-            <div className="absolute inset-0 grid grid-cols-6 opacity-10">
+            <div className="absolute inset-0 grid grid-cols-6 opacity-05">
               {images.slice(0, 36).map((src, index) => (
                 <div key={index} className="relative h-full">
                   <Image

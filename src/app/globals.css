@@ -19,7 +19,9 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
-
-colorDani{
-  color:#17838a;
+.opacity-10 {
+    opacity: .2 !important;
+}
+.colorDani{
+  color:#1e7d79 !important;
 }
